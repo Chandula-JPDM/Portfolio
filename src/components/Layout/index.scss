@@ -1,0 +1,94 @@
+.page {
+    // background-color: red;
+    width: calc(100% - 64px);
+    height: 100%;
+    position: absolute;
+    margin-left: 64px;
+    background: rgba(10, 25, 47, 0.85);
+    
+
+    .email{
+        opacity: 0;
+        position: fixed;
+        width: 10%;
+        height: 50%;
+        top: 50%;
+        left: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        writing-mode: vertical-rl;
+        font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+        letter-spacing: 0.1em;
+        line-height: 18px;
+        color: #A8B2D1;
+        font-size: 13px;
+        transform-style: preserve-3d;
+        animation:fadeInDown 1.5s forwards;
+        animation-delay: 1.5s;
+
+        &::after{
+            content: "";
+            display: block;
+            width: 1px;
+            height: 180px;
+            margin-top: 50px;
+            background-color: #A8B2D1;
+        }
+    }
+}
+
+.container {
+    width: 100%;
+    height: 90%;
+    min-height: 566px;
+    will-change: contents;
+    position: absolute;
+    margin: 0 auto;
+    top: 5%;
+    opacity: 0;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    color: #ccd6f6;
+    // background-color: red;
+}
+
+.flat-button{
+    color: #64ffda;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #64ffda;
+    font-family: "coolvetica";
+    margin-top: 25px;
+    position: absolute;
+    letter-spacing: 4px;
+    white-space: nowrap;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+
+    &:hover{
+        background-color:rgba(100,255,218,0.1);
+    }
+}
+
+@media screen and (max-width: 480px){
+    .page{
+      overflow: auto;
+      height: calc(100% - 60px);
+      width: 100%;
+      margin-left: 0px;
+
+      .container{
+        top:100px;
+        height: calc(90% - 60px);
+      }
+
+      .email{
+        display: none;
+      }
+    }
+}

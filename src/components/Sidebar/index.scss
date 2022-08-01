@@ -1,12 +1,12 @@
 .nav-bar{
-    background: rgba(10, 25, 47, 0.85);
+    // background: rgba(10, 25, 47, 0.85);
     width: 60px;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
     min-height: 500px;
-    // font-family:'Helvetica Neue';
+    box-shadow: 0 10px 30px -10px  rgba(2,12,27,0.7);
 
     .logo{
         display: block;
@@ -89,6 +89,12 @@
                 }
             }
 
+            &.project-link {
+                &::after{
+                    content: 'WORK';
+                }
+            }
+
             &.contact-link {
                 &::after {
                     content: 'CONTACT';
@@ -125,6 +131,37 @@
                     color: #64ffda;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .nav-bar{
+        position: fixed;
+        width: 100%;
+        min-height: 60px;
+        height: 60px;
+        top:91%;
+        // background: red;
+        box-shadow: 10px -10px 30px 0px  rgba(2,12,27,0.7);
+
+        .logo{
+            visibility: hidden;
+        }
+
+        ul{
+            visibility: hidden;
+        }
+
+        nav{
+            display: flex;
+            margin-top: 0;
+            
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+            top:0px;
+            bottom: 0px;
         }
     }
 }

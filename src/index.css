@@ -5,8 +5,8 @@ html{
 body{
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #444;
-  background-color: #022c43;
+  /* color: #444; */
+  background: rgba(10, 25, 47);
   overflow: hidden;
   display: block;
   

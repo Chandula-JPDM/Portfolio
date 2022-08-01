@@ -1,0 +1,44 @@
+.work-page {
+    position: absolute;
+    left: 10%;   
+    width: 80%;
+    max-height: 90%;
+    padding: 0;
+
+    h2{
+        // background: green;
+        margin: 0;
+        text-align: center;
+        color: #ccd6f6;
+        font-size: clamp(26px,5vw,32px);
+        font-weight: 600;
+        font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+        
+    }
+
+    .link{
+        text-decoration: none;
+        
+        h3{
+            text-align: center;
+            color: #64ffda;
+            font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+            font-size: 14px;
+        }
+    }
+
+
+    .projects{
+        // background: red;
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1em;
+        row-gap: 1em;
+        justify-content: center;
+        align-content: flex-start;
+        overflow: auto;
+        padding-top: 10px;
+    }
+}
