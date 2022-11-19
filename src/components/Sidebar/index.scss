@@ -3,7 +3,7 @@
     width: 60px;
     height: 100%;
     position: absolute;
-    top: 0;
+    // top: 0;
     z-index: 3;
     min-height: 500px;
     box-shadow: 0 10px 30px -10px  rgba(2,12,27,0.7);
@@ -141,27 +141,25 @@
         width: 100%;
         min-height: 60px;
         height: 60px;
-        top:91%;
+        bottom: 0;
         // background: red;
         box-shadow: 10px -10px 30px 0px  rgba(2,12,27,0.7);
 
         .logo{
-            visibility: hidden;
+            display: none;
         }
 
         ul{
-            visibility: hidden;
+            display: none;
         }
 
         nav{
             display: flex;
             margin-top: 0;
-            
             justify-content: space-around;
             align-items: center;
             height: 100%;
             top:0px;
-            bottom: 0px;
         }
     }
 }
