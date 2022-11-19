@@ -15,37 +15,37 @@ const Sidebar = () => {
             <img className='sub-logo' src={LogoSub} alt="sub-logo" />
         </Link>
         <nav>
-            <NavLink exact='true' activeclassName='active' to='/'>
+            <NavLink exact='true' activeclassname='active' to='/'>
                 <FontAwesomeIcon icon={faHome} color='#8892b0' />
             </NavLink>
-            <NavLink exact='true' activeclassName='active' className='about-link' to='/about'>
+            <NavLink exact='true' activeclassname='active' className='about-link' to='/about'>
                 <FontAwesomeIcon icon={faUser} color='#8892b0' />
             </NavLink>
-            <NavLink exact='true' activeclassName='active' className='project-link' to='/work'>
+            <NavLink exact='true' activeclassname='active' className='project-link' to='/work'>
                 <FontAwesomeIcon icon={faPenToSquare} color='#8892b0'/>
             </NavLink>
-            <NavLink exact='true' activeclassName='active' className='contact-link' to='/contact'>
+            <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
                 <FontAwesomeIcon icon={faEnvelope} color='#8892b0' />
             </NavLink>
         </nav>
         <ul>
             <li>
-                <a href="" target='_blank' rel='noreferer'>
+                <a href="https://github.com/Chandula-JPDM" target='_blank' rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} color='#8892b0'/>
                 </a>
             </li>
             <li>
-                <a href="" target='_blank' rel='noreferer'>
+                <a href="https://www.linkedin.com/in/chandulajpdm/" target='_blank' rel="noreferrer">
                     <FontAwesomeIcon icon={faLinkedinIn} color='#8892b0'/>
                 </a>
             </li>
             <li>
-                <a href="" target='_blank' rel='noreferer'>
+                <a href="https://www.instagram.com/chandula12d/" target='_blank' rel="noreferrer">
                     <FontAwesomeIcon icon={faInstagram} color='#8892b0'/>
                 </a>
             </li>
             <li>
-                <a href="" target='_blank' rel='noreferer'>
+                <a href="https://twitter.com/ChandulaJpdm" target='_blank' rel="noreferrer">
                     <FontAwesomeIcon icon={faTwitter} color='#8892b0'/>
                 </a>
             </li>
