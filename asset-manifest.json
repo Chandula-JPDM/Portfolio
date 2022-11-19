@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f9d7669.css",
+    "main.js": "/static/js/main.c1166e89.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/chandula_cv.pdf": "/static/media/chandula_cv.b0ebd74b72f4d6888007.pdf",
+    "static/media/chandulaJPDM.jpg": "/static/media/chandulaJPDM.0300bf2b3e8c16b1f1bf.jpg",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/logo-c.png": "/static/media/logo-c.547fb37ea89613ad393d.png",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo_sub_c.png": "/static/media/logo_sub_c.09e48322bdcaad030e86.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.9f9d7669.css.map": "/static/css/main.9f9d7669.css.map",
+    "main.c1166e89.js.map": "/static/js/main.c1166e89.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f9d7669.css",
+    "static/js/main.c1166e89.js"
+  ]
+}
